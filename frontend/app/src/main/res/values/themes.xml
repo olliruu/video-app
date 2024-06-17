@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.VideoApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+    </style>
+
+    <style name="roundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="roundedChipView" parent="">
+        <item name="cornerSize">5dp</item>
+    </style>
+
+</resources>

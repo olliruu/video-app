@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/createFragment"
+        android:name="com.example.videoapp.CreateFragment"
+        android:label="fragment_create"
+        tools:layout="@layout/fragment_create" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.videoapp.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.videoapp.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/subscriptionsFragment"
+        android:name="com.example.videoapp.SubscriptionsFragment"
+        android:label="fragment_subscriptions"
+        tools:layout="@layout/fragment_subscriptions" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.videoapp.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.videoapp.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.videoapp.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/updateProfileFragment"
+        android:name="com.example.videoapp.UpdateProfileFragment"
+        android:label="fragment_update_profile"
+        tools:layout="@layout/fragment_update_profile" />
+    <fragment
+        android:id="@+id/videoUploadFragment"
+        android:name="com.example.videoapp.VideoUploadFragment"
+        android:label="fragment_video_upload"
+        tools:layout="@layout/fragment_video_upload" />
+    <fragment
+        android:id="@+id/pollUploadFragment"
+        android:name="com.example.videoapp.PollUploadFragment"
+        android:label="fragment_poll_upload"
+        tools:layout="@layout/fragment_poll_upload" />
+    <fragment
+        android:id="@+id/postUploadFragment"
+        android:name="com.example.videoapp.PostUploadFragment"
+        android:label="fragment_post_upload"
+        tools:layout="@layout/fragment_post_upload" />
+
+</navigation>
